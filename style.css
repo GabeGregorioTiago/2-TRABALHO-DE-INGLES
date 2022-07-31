@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Open Sans", "PT Sans",  'Oswald', sans-serif;
+   
+}
+body{
+    background-color:#3aaaff;
+}
+body img{
+    width: 27vw;
+    height: 62vh;
+    margin-top: 8vh;
+    margin-left: 35vw;
+}
+h1{
+    color:red;
+    opacity: 0.5;
+    font-size: 6vh;
+    font-weight: 900;
+    margin-top: 7vh;
+    margin-left: 40vw;
+}
+h2{
+    color:white;
+    opacity: 0.5;
+    font-size: 4vh;
+    margin-top: 4vh;
+    margin-left: 25vw;
+}
+a{
+   
+    font-size: 10px; 
+    text-decoration: none;
+    color: white;
+    margin-left: 8vw;
+}
+.box--two{
+    display:none;
+}
+.box--four{
+    border: solid;
+    display:none;
+}
+.box--five{
+    display:none;
+}
+@media (max-width:428px){
+    body{
+        background-color: #f1b641;
+    }
+    main{
+        height:950px;
+        
+    }
+   .box--one{
+     display: none;
+   }
+   .box--three{
+    display: none;
+   }
+   .box--two{
+     display: flex;
+     align-items:center;
+     justify-content:space-evenly;
+     
+     border-radius: 30px;
+      height: 50px;
+      width: 330px;
+      position: relative;
+      margin-top:30px;
+      margin-left: 15px;
+      background-color:#ffecc0 ;
+   }
+
+   .menuHamburguer{
+      width: 30px;
+      height:30px;
+      position:absolute;
+      left:-110px;
+      bottom: 8px;
+   }
+   
+   .locker{
+      width: 30px;
+      height: 30px;
+      position:absolute;
+      bottom: 8px;
+      right: 17px;
+   }
+   .box--two h2{
+     position: absolute;
+     bottom: 5px;
+     left:40px;
+     color: black;
+     opacity: 0.8;
+     font-family:"Open Sans", "PT Sans", 'Courgette', cursive;
+     font-weight: 300;
+   }
+   .box--four{
+     display: contents;
+     border: solid;
+     height: 200px;
+     width: 80px;
+    
+   }
+   .box--four figure{
+     
+        height: 400px;
+        width: 350px;
+     
+        margin-top: 10px;
+
+   }
+   .box--four img{
+     display: flex;
+     height: 350px;
+     width: 250px;
+     margin-top:-3px;
+     margin-left: 50px;
+    
+     
+     
+   }
+   .box--four div{
+  
+     
+     width: 425px;
+      position: relative;
+       height: 70px;
+       
+   }
+   .subtitle--one{
+        position:absolute;
+        bottom:40px;
+        left: -70px;
+         color: black;
+         font-size: 35px;
+         opacity: 1;
+         font-weight:900;
+    } 
+   
+    .subtitle--two{
+        position:absolute;
+        right:90px;
+        bottom:40px;
+        color: black;
+        font-size: 35px;
+        opacity: 1;
+
+    } 
+     .box--four h3{
+        margin-left:20px;
+        font-size: 25px;
+        font-weight: 900;
+     }
+    .box--five{
+        display: contents;
+        border:solid;
+        height: 80px;
+        height: 200px;
+    }
+    .box--four p{
+        margin-left:20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+    
+    .buyButton{
+        border: solid;
+        height:60px;
+        width: 330px;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        border-radius: 50px;
+        margin-left:15px;
+
+    }
+    .minus{
+        height: 50px;
+        width: 50px;
+        font-size: 40px;
+        background: transparent;
+        border: transparent;
+    }
+    .add{
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+        background: transparent;
+        border: transparent;
+    }
+    .addCartButton{
+
+        margin-top:25px;
+        margin-left:15px;
+        height:60px;
+        width: 330px;
+        border-radius: 50px;
+        color:white;
+        background-color: black;
+        
+    }
+    input[name="tamanho"] {
+        accent-color:black;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+   
+}
