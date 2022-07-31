@@ -70,7 +70,7 @@ a{
      
      border-radius: 30px;
       height: 50px;
-      width: 330px;
+      width: 360px;
       position: relative;
       margin-top:30px;
       margin-left: 15px;
@@ -121,7 +121,7 @@ a{
      height: 350px;
      width: 250px;
      margin-top:-3px;
-     margin-left: 50px;
+     margin-left: 80px;
     
      
      
@@ -137,7 +137,7 @@ a{
    .subtitle--one{
         position:absolute;
         bottom:40px;
-        left: -70px;
+        left: -90px;
          color: black;
          font-size: 35px;
          opacity: 1;
@@ -146,7 +146,7 @@ a{
    
     .subtitle--two{
         position:absolute;
-        right:90px;
+        right:40px;
         bottom:40px;
         color: black;
         font-size: 35px;
@@ -174,20 +174,20 @@ a{
     .buyButton{
         border: solid;
         height:60px;
-        width: 330px;
-        display: flex;
-        align-items: center;
-        justify-content:space-evenly;
+        width: 370px;
+         position: relative;
         border-radius: 50px;
         margin-left:15px;
 
     }
     .minus{
+        position: absolute;
         height: 50px;
         width: 50px;
         font-size: 40px;
         background: transparent;
         border: transparent;
+        
     }
     .add{
         height: 50px;
@@ -195,17 +195,24 @@ a{
         font-size: 30px;
         background: transparent;
         border: transparent;
+        position: absolute;
+        left: 300px;
+    }
+    .box--five p{
+        position: absolute;
+        top:18px;
+        left: 170px;
     }
     .addCartButton{
 
         margin-top:25px;
         margin-left:15px;
         height:60px;
-        width: 330px;
+        width: 370px;
         border-radius: 50px;
         color:white;
         background-color: black;
-        
+        border:none;
     }
     input[name="tamanho"] {
         accent-color:black;
@@ -213,5 +220,8 @@ a{
         margin-top: 20px;
         margin-bottom: 30px;
     }
+   .text--two{
    
+     width: 240px;
+   }
 }
